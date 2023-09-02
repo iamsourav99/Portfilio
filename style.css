@@ -1,0 +1,232 @@
+/* importing google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* setting universal css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* vsriable for color and padding  */
+:root {
+  --primary-text-color: #022b3a;
+  --secondary-text-color: rgb(73, 73, 73);
+  --pading-inline-section: 20px;
+  --aceant-color: #bee9e8;
+  --aceant-color-dark: #1f7a8c;
+}
+/* flex property */
+.flex {
+  display: flex;
+  align-items: center;
+}
+/* container for all elements */
+.container {
+  max-width: 80vw;
+  padding: var(--primary-text-color);
+  margin-inline: auto;
+}
+/* body properties ans font size and color */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+
+}
+ul {
+  list-style: none;
+}
+/* all links properties */
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--primary-text-color);
+}
+span {
+  color: var(--aceant-color-dark);
+}
+
+/* top-banner */
+header {
+  width: 100vw;
+  background-color: var(--aceant-color);
+  color: var(--primary-text-color);
+}
+.top-banner {
+  padding: 10px 20px;
+  text-align: center;
+  padding-inline: var(--pading-inline-section);
+}
+/* navbar section  */
+nav {
+  margin-top: 20px;
+}
+.main-navbar {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.list-items ul {
+  gap: 30px;
+}
+.list-items {
+  transition: 0.8s ease-out;
+}
+.list-item:hover {
+  color: var(--aceant-color);
+}
+/* hero section  */
+main {
+  height: 85vh;
+  padding: 50px var(--pading-inline-section) 0;
+}
+.hero-section {
+  gap: 50px;
+  justify-content: space-between;
+}
+.hero-left img {
+  border-radius: 50%;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hero-right h1{
+padding-bottom: 50px;
+font-size:5rem;
+}
+
+/* about-section */
+.about-section-container{
+    /* background-color: var(--aceant-color); */
+    height: 70vh;
+    gap: 50px;
+    padding-top: 100px;
+   
+    
+}
+.about-left{
+    height: 100%;
+    border: 2px solid black;
+    width:40%;
+    justify-content:center;
+  
+    
+}
+.about-left-image{
+  height:300px;
+  width: 300px;
+  border: 1px solid black;
+  /* background-size: cover; */
+}
+.about-left-image img{
+  /* background-size: cover; */
+  width: 100%;
+}
+
+.about-right{
+ height: 100%;
+}
+.about-right h2{
+    text-align:center;
+}
+/* skill-section  */
+.skills-section{
+  margin-top: 50px;
+    padding: 20px var(--pading-inline-section) 0 ;
+}
+.skill-section-header{
+    text-align: center;
+    text-decoration:underline;
+    padding-bottom: 30px;
+}
+.skill-section-cards{
+    gap: 50px;
+    flex-wrap: wrap ;
+    justify-content:space-between;
+}
+.skill-card{
+    max-width: 30%;
+    padding: 20px;
+    background-color: #f9fff2;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill-card img{
+    border-radius: 50%;
+    background-size: cover;
+}
+
+/* education-section*/
+.education-section{
+  padding: 20px var(--pading-inline-section) 20px ;
+  margin-top: 50px;
+  background-color: #1f7a8c;
+}
+.education-section-header{
+  text-align: center;
+  /* text-decoration:underline; */
+  padding-bottom: 30px;
+}
+.education-cards{
+  gap: 50px;
+}
+.education-card{
+  /* border: 2px solid black; */
+  height:300px;
+   width: 30%;
+  padding: 20px;
+  background-color: #f9fff2;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.institute-image{
+  height: 50%;
+  width:100%;
+}
+.institute-image img{
+
+width:40%;
+  background-size: cover;
+}
+.Academic{
+  font-size:0.6rem;
+}
+/* footer  */
+footer {
+  background-color: whitesmoke;
+  padding-block: 100px;
+}
+.footer-container {
+    text-align: flex start;
+  justify-content: space-between;
+}
+/* .footer-logo img {
+  width: 200px;
+} */
+.footer-social-icon{
+  font-size: 2rem;
+  gap:20px;
+}
+.footer-items ul {
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-items h3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--aceant-color-dark);
+}
+
+/* sub-footer-section */
+.sub-footer {
+  padding: 10px;
+  background-color:var(--aceant-color-dark);
+
+  text-align: center;
+}
+.sub-footer p {
+  
+  font-size:0.6rem;
+}
