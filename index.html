@@ -8,13 +8,13 @@
 </head>
 <body>
     <!--top banner-->
-   <!-- <header>
+   <header>
     <div class="container">
         <div class="top-banner">
             <h3><b>Portfolio</b></h3>
         </div>
     </div>
-   </header> -->
+   </header>
    <!--navbar-->
    <nav>
     <div class="container main-navbar flex">
@@ -26,7 +26,8 @@
             <ul class="flex">
                 <li><a href="#" class="list-item">Home</a></li>
                 <li><a href="#about" class="list-item">About</a></li>
-                <li><a href="#" class="list-item">Services</a></li>
+                <li><a href="#" class="list-item">Skills</a></li>
+                <li><a href="#" class="list-item">Education</a></li>
                 <li><a href="#" class="list-item">Contact</a></li>
             </ul>
         </div>
@@ -37,7 +38,7 @@
     <div class="container hero-section flex">
         <div class="hero-right">
             <h1>Engineer</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sint ab, commodi ad </p>
+            <p>I am Sourav Barman, a driven B.Tech student with a passion for software engineering and a strong commitment to personal and professional growth. I am excited to embark on this journey, and I look forward to the opportunities and challenges that will shape my future as a software engineer.</p>
         </div>
         <div class="hero-left">
             <img src="images/Untitled design (1).png" alt="">
@@ -50,8 +51,7 @@
         <div class="container flex about-section-container">
             <div class="about-left flex">
                 <div class="about-left-image flex" >
-                    <img src="/1111.png" alt="photo">
-
+                    <img src="images/Untitled design (1).png" alt="photo">
                 </div>
                
             </div>
@@ -73,34 +73,52 @@
         <div class="skill-section-cards flex">
 
             <div class="skill-card flex">
-                <img src="https://placehold.co/75x75" alt="skill-logo">
-                <h3>Skill-name</h3>
-                <p>this is sample details section & i have to right small brief introduction</p>
+                <div class="card-logo">
+                    <img src="images/html.webp" alt="skill-logo">
+
+                </div>
+                <h3>HTML</h3>
+                <!-- <p>HTML 5 </p> -->
             </div>
             <div class="skill-card flex">
-                <img src="https://placehold.co/75x75" alt="skill-logo">
-                <h3>Skill-name</h3>
-                <p>this is sample details section & i have to right small brief introduction</p>
+                <div class="card-logo">
+                    <img src="images/css.png" alt="skill-logo">
+
+                </div>
+                <h3>CSS 3</h3>
+                <!-- <p>this is sample details section & i have to right small brief introduction</p> -->
             </div>
             <div class="skill-card flex">
-                <img src="https://placehold.co/75x75" alt="skill-logo">
-                <h3>Skill-name</h3>
-                <p>this is sample details section & i have to right small brief introduction</p>
+                <div class="card-logo">
+                    <img src="images/Javascript-Logo.png" alt="skill-logo">
+
+                </div>
+                <h3>Javascript</h3>
+                <!-- <p>this is sample details section & i have to right small brief introduction</p> -->
             </div>
             <div class="skill-card flex">
-                <img src="https://placehold.co/75x75" alt="skill-logo">
-                <h3>Skill-name</h3>
-                <p>this is sample details section & i have to right small brief introduction</p>
+                <div class="card-logo">
+                    <img src="images/Java_logo_icon.png" alt="skill-logo">
+
+                </div>
+                <h3>Java</h3>
+                <!-- <p>this is sample details section & i have to right small brief introduction</p> -->
             </div>
             <div class="skill-card flex">
-                <img src="https://placehold.co/75x75" alt="skill-logo">
-                <h3>Skill-name</h3>
-                <p>this is sample details section & i have to right small brief introduction</p>
+                <div class="card-logo">
+                    <img src="images/mysql-logo.png" alt="skill-logo">
+
+                </div>
+                <h3>My-Sql</h3>
+                <!-- <p>this is sample details section & i have to right small brief introduction</p> -->
             </div>
             <div class="skill-card flex">
-                <img src="https://placehold.co/75x75" alt="skill-logo">
-                <h3>Skill-name</h3>
-                <p>this is sample details section & i have to right small brief introduction</p>
+                <div class="card-logo">
+                    <img src="images/Desktop-Support-Engineer-800x500.png" alt="skill-logo">
+
+                </div>
+                <h3>Desktop-Support</h3>
+                <!-- <p>this is sample details section & i have to right small brief introduction</p> -->
             </div>
         </div>
     </div>
@@ -117,17 +135,23 @@
                 <div class="institute-image">
                     <img src="images/school.jpeg" alt="institute image">
                 </div>
-                <h4>Mahakalguri Mission High School</h4>
-                <p>10+2 with Science(PCM)</p>
-                <p class="Academic">Academic Year:2015-2017</p>
+                <div class="details">
+
+                    <h4>Mahakalguri Mission High School</h4>
+                    <p>10+2 with Science(PCM)</p>
+                    <p class="Academic">Academic Year:2015-2017</p>
+                </div>
             </div>
             <div class="education-card flex">
                 <div class="institute-image">
                     <img src="images/polytechnic.jpg" alt="institute image">
                 </div>
-                <h4>Siliguri Govt. Polytechnic</h4>
-                <p>Diploma in Computer Science & Technology</p>
-                <p class="Academic">Academic Year:2018-2021</p>
+                <div class="details">
+
+                    <h4>Siliguri Govt. Polytechnic</h4>
+                    <p>Diploma in Computer Science & Technology</p>
+                    <p class="Academic">Academic Year:2018-2021</p>
+                </div>
             </div>
        
      
@@ -135,9 +159,12 @@
                 <div class="institute-image">
                     <img src="images/cgec.jpeg" alt="institute image">
                 </div>
-                <h5>Coochbehar Government Engineering College</h5>
-                <p>B.Tech in Computer Science and Engineering </p>
-                <p class="Academic">Academic Year:2022-2025</p>
+                <div class="details">
+
+                    <h5>Coochbehar Government Engineering College</h5>
+                    <p>B.Tech in Computer Science and Engineering </p>
+                    <p class="Academic">Academic Year:2022-2025</p>
+                </div>
             </div>
         </div>
        
@@ -149,7 +176,7 @@
  <footer >
     <div class="container flex footer-container">
         <div class="footer-social-icon flex">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         <a href="#"><i class="fa-brands fa-github"></i></a>
         <a href="#"><i class="fa-solid fa-envelope"></i></a>
