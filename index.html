@@ -8,13 +8,13 @@
 </head>
 <body>
     <!--top banner-->
-   <header>
+   <!-- <header>
     <div class="container">
         <div class="top-banner">
             <h3><b>Portfolio</b></h3>
         </div>
     </div>
-   </header>
+   </header> -->
    <!--navbar-->
    <nav>
     <div class="container main-navbar flex">
@@ -24,24 +24,26 @@
         </a>
         <div class="list-items">
             <ul class="flex">
-                <li><a href="#" class="list-item">Home</a></li>
+                <li><a href="#hero" class="list-item">Home</a></li>
                 <li><a href="#about" class="list-item">About</a></li>
-                <li><a href="#" class="list-item">Skills</a></li>
-                <li><a href="#" class="list-item">Education</a></li>
-                <li><a href="#" class="list-item">Contact</a></li>
+                <li><a href="#skill" class="list-item">Skills</a></li>
+                <li><a href="#project" class="list-item">Projects</a></li>
+                <li><a href="#education" class="list-item">Education</a></li>
+                <li><a href="#contact" class="list-item">Contact</a></li>
             </ul>
         </div>
+        <!-- <i class="fa-solid fa-burger"></i> -->
     </div>
    </nav>
 <!--hero sectioon-->
-   <main>
+   <main id="hero">
     <div class="container hero-section flex">
         <div class="hero-right">
-            <h1>Engineer</h1>
-            <p>I am Sourav Barman, a driven B.Tech student with a passion for software engineering and a strong commitment to personal and professional growth. I am excited to embark on this journey, and I look forward to the opportunities and challenges that will shape my future as a software engineer.</p>
+            <h1>Sourav Barman</h1>
+            <p>Software Engineer aspirent, Parsuing B.Tech in Computer Science and Engineering</p>
         </div>
         <div class="hero-left">
-            <img src="images/Untitled design (1).png" alt="">
+            <img src="images/Untitled design (1).png" alt="my_image">
 
         </div>
     </div>
@@ -49,22 +51,36 @@
    <!--about section-->
    <section class="about-section" id="about">
         <div class="container flex about-section-container">
-            <div class="about-left flex">
-                <div class="about-left-image flex" >
+            <div class="about-left ">
+                <div class="about-left-image " >
                     <img src="images/Untitled design (1).png" alt="photo">
                 </div>
                
             </div>
             <div class="about-right ">
                 <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi sint possimus delectus sed doloribus 
+                <p>I am Sourav Barman, a driven B.Tech student with a passion for software engineering and a strong commitment to personal and professional growth. I am excited to embark on this journey, and I look forward to the opportunities and challenges that will shape my future as a software engineer.
                 </p>
+                <br>
+                <p>I am  passionate about learn new Technologies and drive into differnet programming languages.</p><br>
+                <p>
+                    If not able to find me at my work place then you will find me to exploring nature, travelling ,cycling and plying guitar.
+                </p>
+                <div class="button-section">
 
+                    <a href="https://drive.google.com/file/d/1TVuvukKqADxxQ07I0NtsySpvM89cP-LP/view?usp=sharing"  target="_blank">
+                        <button class="download-cv-button">Download CV</button>
+                      </a>
+                      <a href="mailto:souravbarman75578@gmail.com">
+                        <button class="hire-me-button">Hire Me</button>
+                      </a>
+                </div>
+                  
             </div>
         </div>
    </section>
    <!--skills-->
-<section class="skills-section">
+<section class="skills-section" id="skill">
     <div class="container skills-section-container">
         <div class="skill-section-header">
             <h2>Skills</h2>
@@ -123,8 +139,59 @@
         </div>
     </div>
 </section>
+
+<!--Projects-->
+<section class="project-section" id="project">
+<div class="container project">
+<div class="project-section-header">
+    <h2>Projects</h2>
+</div>
+<div class="project-cards flex">
+    <div class="project-card flex">
+        <div class="project-image">
+            <img src="images/portfolio.png" alt="project-1">
+        </div>
+        <div class="project-details">
+            <h3>Portfolio</h3>
+            <p>Its is my own protfolio project</p>
+        </div>
+        <button class="project-button">Visit</button>
+    </div>
+    <div class="project-card flex">
+        <div class="project-image">
+            <img src="images/number_guess.jpg" alt="project-1">
+        </div>
+        <div class="project-details">
+            <h3>Number Guessing Game</h3>
+            <p>It's a number guessing game using java</p>
+        </div>
+        <button class="project-button">Visit</button>
+    </div>
+    <div class="project-card flex">
+        <div class="project-image">
+            <img src="images/grade_clculator.jpeg" alt="project-1">
+        </div>
+        <div class="project-details">
+            <h3>Grade calculator</h3>
+            <p>it's a grade calculator project for student grade calculation</p>
+        </div>
+        <button class="project-button">Visit</button>
+    </div>
+    <div class="project-card flex">
+        <div class="project-image">
+            <img src="images/temparature.JPG" alt="project-1">
+        </div>
+        <div class="project-details">
+            <h3>Temperature Converter</h3>
+            <p>It's a temperature converter page using HTML,CSS,Javascript</p>
+        </div>
+        <button class="project-button">Visit</button>
+    </div>
+</div>
+</div>
+</section>
 <!--Eduction section-->
-<section class="education-section">
+<section class="education-section" id="education">
     <div class="container education">
         <div class="education-section-header">
             <h2>Education</h2>
@@ -161,7 +228,7 @@
                 </div>
                 <div class="details">
 
-                    <h5>Coochbehar Government Engineering College</h5>
+                    <h4>Coochbehar Government Engineering College</h4>
                     <p>B.Tech in Computer Science and Engineering </p>
                     <p class="Academic">Academic Year:2022-2025</p>
                 </div>
@@ -173,8 +240,8 @@
 </section>
 
  <!--footer section html-->
- <footer >
-    <div class="container flex footer-container">
+ <footer id="contact" >
+    <div class="container flex footer-container" >
         <div class="footer-social-icon flex">
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -188,6 +255,7 @@
                 <li><a href="#" class="hover-link">About</a></li>
                 <li><a href="#" class="hover-link">Skills</a></li>
                 <li><a href="#" class="hover-link">Education</a></li>
+                <li><a href="#" class="hover-link">Project</a></li>
             </ul>
         </div>
         <!--for future update-->
