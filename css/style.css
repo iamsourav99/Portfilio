@@ -117,7 +117,9 @@ main {
   padding-bottom: 10px;
   font-size: 3rem;
 }
-
+.hero-right p{
+  font-size: 1rem;
+}
 /* about-section */
 .about-section-container {
   /* background-color: var(--aceant-color); */
